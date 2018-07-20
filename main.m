@@ -13,7 +13,7 @@ Test_labelFile = 'testset\t10k-labels.idx1-ubyte';
 %[test_images test_labels] = readMNIST(Test_imgFile, Test_labelFile, 10000, 0);
 load('ReadData.mat');
 
-%problem paramters
+%problem parameters
 C = 10;
 input_len = 784;
 train_len = 60000;
